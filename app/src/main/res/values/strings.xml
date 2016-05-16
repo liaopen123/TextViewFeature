@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TextView属性全解</string>
+    <string name="title1">你好%1$s,,,,%2$s,,,,,%3$s,这是第一个app</string>
+
+</resources>

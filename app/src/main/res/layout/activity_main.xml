@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.liaopenghui.textview.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+    <TextView
+        android:id="@+id/autolink"
+        android:autoLink="email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="467969@qq.com" />
+
+    <TextView
+        android:id="@+id/autolink1"
+        android:autoLink="phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="18810333365" />
+
+    <TextView
+        android:id="@+id/autolink2"
+        android:autoLink="web"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="http://blog.csdn.net/sdkfjksf/article/details/51317204" />
+
+    <TextView
+        android:ellipsize="start"
+       android:maxWidth="150dp"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="演示android:ellipsize4种效果http://blog.csdn.net/sdkfjksf/article/details/51317204" />
+
+    <TextView
+        android:ellipsize="middle"
+        android:maxWidth="150dp"
+        android:maxLines="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="演示android:ellipsize4种效果http://blog.csdn.net/sdkfjksf/article/details/51317204" />
+
+    <TextView
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:maxWidth="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="演示android:ellipsize4种效果http://blog.csdn.net/sdkfjksf/article/details/51317204" />
+
+    <TextView
+        android:ellipsize="marquee"
+        android:maxLines="1"
+        android:maxWidth="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="演示android:ellipsize4种效果http://blog.csdn.net/sdkfjksf/article/details/51317204" />
+    <TextView
+        android:shadowColor="#ff0000"
+        android:shadowRadius="3.0"
+        android:ellipsize="marquee"
+        android:shadowDx="20"
+        android:shadowDy="20"
+        android:maxWidth="150dp"
+        android:lineSpacingExtra="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设置行间距影音http://blog.csdn.net/sdkfjksf/article/details/51317204" />
+</LinearLayout>
